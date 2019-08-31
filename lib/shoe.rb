@@ -53,18 +53,18 @@ class Shoe
   def material
     @material
   end
-
-  # def condition (condition)
-  #   @condition = condition
-  # end
-
+  #this is a reader meaning it reads and sets the condition data to and instance variable
+  def condition (condition)
+    @condition = condition
+  end
+  #this is a setter
   def condition= (condition)
     @condition = condition
   end
-  
-  # def condition
-  #   @condition
-  # end
+  # this is a getter
+  def condition
+    @condition
+  end
 
   def cobble
   puts  "Your shoe is as good as new!"
