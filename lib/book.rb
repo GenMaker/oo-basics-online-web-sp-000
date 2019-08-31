@@ -1,7 +1,8 @@
 class Book
-  #gets me a 
+  #gets me a getter and setter for free
   attr_accessor :author,
   :page_count, :genre
+  #gets me a reader and getter for free
   attr_reader :title
 
   def initialize(title)
