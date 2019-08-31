@@ -58,7 +58,10 @@ class Shoe
   #   @condition = condition
   # end
 
-  learn
+  def condition= (condition)
+    @condition = condition
+  end
+  
   # def condition
   #   @condition
   # end
