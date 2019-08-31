@@ -57,24 +57,17 @@ class Shoe
   def condition (condition)
     @condition = condition
   end
-  #this is a setter
+  #this is a setter/writer
   def condition= (condition)
     @condition = condition
   end
-  # this is a getter
+  # this is a getter/reader
   def condition
     @condition
   end
-(# setter
-def condition= (condition)
-    @condition = condition
-  end
-  # getter
-  def condition
-    @condition
-  end)
 
-  ()
+
+
 
   def cobble
   puts  "Your shoe is as good as new!"
