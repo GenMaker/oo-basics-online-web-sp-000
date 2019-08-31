@@ -5,10 +5,6 @@ class Shoe
   def initialize (brand)
     @brand = brand
   end
-  #this is a reader
-  def color (color)
-    @color = color
-  end
 
   #this is the setter
   def color=(color)
@@ -19,19 +15,11 @@ class Shoe
     @color
   end
 
-  def brand (brand)
-    @brand = brand
-  end
-
   def brand= (brand)
   end
 
   def brand
     @brand
-  end
-
-  def size (size)
-    @size = size
   end
 
   def size= (size)
@@ -42,10 +30,6 @@ class Shoe
     @size
   end
 
-  def material (material)
-    @material = material
-  end
-
   def material= (material)
     @material = material
   end
@@ -53,7 +37,7 @@ class Shoe
   def material
     @material
   end
-  
+
   #this is a setter/writer
   def condition= (condition)
     @condition = condition
@@ -62,9 +46,6 @@ class Shoe
   def condition
     @condition
   end
-
-
-
 
   def cobble
   puts  "Your shoe is as good as new!"
