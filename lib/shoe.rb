@@ -5,7 +5,7 @@ class Shoe
   def initialize (brand)
     @brand = brand
   end
-  this is a reader
+  #this is a reader
   def color (color)
     @color = color
   end
