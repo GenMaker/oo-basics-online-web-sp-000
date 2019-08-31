@@ -31,7 +31,7 @@ class Shoe
   end
 
   def size (size)
-    @size = brand
+    @size = size
   end
 
   def size= (size)
@@ -64,6 +64,6 @@ class Shoe
   def condition
     @condition
   end
-  
+
 
 end
